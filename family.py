@@ -50,7 +50,5 @@ with st.container():
    st.area_chart(df[['Adj Close']])
    st.line_chart(df[['Low','Adj Close','High']])
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
 #print(dt.head(5))
 
